@@ -33,7 +33,8 @@ public class SecurityConfig {
                         "/auth/login",
                         "/swagger-ui/**",
                         "/v3/api-docs/**",
-                        
+                        "/actuator/health",
+                        "/actuator/info",
                         "/swagger-ui-custom.html"
                 ).permitAll()
 
